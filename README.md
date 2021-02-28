@@ -92,7 +92,6 @@ def print_hello():
 ## Variables
 
 - **Python has no keyword to declare variables.**
-- String variables can be initialized by using single or double quotes.
 - Variable names are case-sensitive.
 
 ```python
@@ -194,7 +193,9 @@ Python does not have a character or `char` type. All single characters are `stri
 ## Strings
 
 `<class 'str'>`  
-Strings are `Lists` (Arrays)
+
+- can be initialized by using single or double quotes
+- Strings are `Lists` (Arrays)
 
 ```python
 a = "Hello, World!"

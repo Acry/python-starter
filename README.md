@@ -87,8 +87,7 @@ def print_hello():
 \# line comment  
 """ block comment """
 
-    PEP 257 -- Docstring Conventions
-    https://www.python.org/dev/peps/pep-0257/
+[PEP 257 -- Docstring Conventions](https://www.python.org/dev/peps/pep-0257/)
 
 ## Variables
 

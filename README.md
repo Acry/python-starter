@@ -78,10 +78,6 @@ def print_hello():
 
 ![](module.png)
 
-# Debug
-
-![](debug.png)
-
 ## Comments
 
 \# line comment  
@@ -318,7 +314,7 @@ for word in words:
 
 https://www.python.org/
 
-https://wiki.archlinux.org/index.php/rust
+https://wiki.archlinux.org/index.php/python
 
 https://en.wikipedia.org/wiki/Python_(programming_language)
 

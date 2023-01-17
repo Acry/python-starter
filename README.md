@@ -2,11 +2,15 @@
 
 Simple Python kickoff
 
-Python is a general-purpose, multi-paradigm, interpreted programming language,  with a dynamic, strong typing system. To support developers is aims for reflection.
+## About Python
+
+general-purpose, multi-paradigm, interpreted programming language.  Dynamic, strong typing. To support developers is aims for reflection.
 
 Reflective programming or reflection is the ability of a process to examine, introspect, and modify its own structure and behavior.
 
 ## Installing Python on Arch-Linux
+
+Should come with most Linux distributions.
 
 `sudo pacman -S python`  
 The python package installs CPython.
@@ -22,6 +26,7 @@ Enable for workspace only suggested.
 ## Hello World
 
 ```python
+# first.py
 print("Hello World!")
 cat = '😻'
 print(cat)
@@ -32,14 +37,14 @@ run:
 `python first.py`
 
 or press the green arrow:  
-![](run.png)
+![run](run.png)
 
 output:  
-![](hello.png)
+![output](hello.png)
 
 ## Debug
 
-![](debug.png)
+![debug](debug.png)
 
 ## Package Management
 
@@ -48,9 +53,9 @@ Python Package Index (PyPI)
 <https://pypi.org/>
 
 Other package managers:  
+
 - Anaconda
 - Miniconda
-
 
 ## Modules
 
@@ -76,12 +81,17 @@ def print_hello():
     print(cat)
 ```
 
-![](module.png)
+![module](module.png)
 
 ## Comments
 
-\# line comment  
+```python
+# line comment  
+```
+
+```python
 """ block comment """
+```
 
 [PEP 257 -- Docstring Conventions](https://www.python.org/dev/peps/pep-0257/)
 
@@ -174,13 +184,13 @@ Booleans are integers:
 ```python
 x = bool(1)
 ```
+
     True
 
 ```python
 x = True
 x = False
 ```
-
 
 ## Characters
 
@@ -304,6 +314,7 @@ while index < 10:
 ```
 
 ### for loops
+
 ```python
 words = ['cat', 'mouse', 'dog']
 for word in words:
@@ -312,14 +323,14 @@ for word in words:
 
 ## References
 
-https://www.python.org/
+<https://www.python.org/>
 
-https://wiki.archlinux.org/index.php/python
+<https://wiki.archlinux.org/index.php/python>
 
-https://en.wikipedia.org/wiki/Python_(programming_language)
+<https://en.wikipedia.org/wiki/Python_(programming_language)>
 
-https://code.visualstudio.com/docs/python/python-tutorial
+<https://code.visualstudio.com/docs/python/python-tutorial>
 
-https://docs.python.org/3/reference/
+<https://docs.python.org/3/reference/>
 
-https://wiki.python.org/moin/BeginnersGuide
+<https://wiki.python.org/moin/BeginnersGuide>

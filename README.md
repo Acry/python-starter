@@ -277,6 +277,20 @@ thisdict = {
 
 No built-in support, but Lists can be used instead.
 
+## Structs
+
+No concept of a struct.  
+You can use classes as data bags.
+
+```python
+class MyClass:
+    pass
+
+
+myClass = MyClass()
+myClass.foo = 'some'
+```
+
 ## Functions
 
 ```python
@@ -320,6 +334,10 @@ words = ['cat', 'mouse', 'dog']
 for word in words:
     print(word, len(word))
 ```
+
+## OOP Concepts
+
+[Classes](Classes.md)
 
 ## References
 
